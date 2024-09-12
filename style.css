@@ -43,7 +43,21 @@ h6 {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-img {
-  height: 40px;
-  width: 40px;
+.headerLogo {
+  height: 50px;
+  width: 50px;
+}
+
+.greetingpic {
+  height: 125px;
+  width: 125px;
+}
+
+.infopic {
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  border: 1px solid black;
 }
