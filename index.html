@@ -3,165 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="searchBar">
-        <img src="images/magnify.svg" alt="" class="headerLogo logo1" />
-        <input type="text" />
-      </div>
-      <div class="greeting">
-        <img
-          src="images/elephant_3798809.png"
-          alt=""
-          class="profilepic greetingpic"
-        />
-        <div class="text">Hi there,</div>
-        <div class="identify">Bob Johnson (@BobbyJ)</div>
-      </div>
-      <div class="info">
-        <img
-          src="images/bell-alert-outline.svg"
-          alt=""
-          class="headerLogo logo2"
-        />
-        <img
-          src="images/elephant_3798809.png"
-          class="profilepic infopic"
-          alt=""
-        />
-      </div>
-      <nav class="navbar">
-        <button class="new">New</button>
-        <button class="upload">Upload</button>
-        <button class="share">Share</button>
-      </nav>
-    </header>
-
     <aside class="sidebar">
-      <div class="sidebarTop">
-        <div class="logo">Logo</div>
-        <div class="sidebarTitle">Dashboard</div>
-      </div>
-      <div class="sidebarMid">
-        <div class="sidebarLogo logo1">Logo1</div>
-        <div class="sidebarLogo logo2">Logo2</div>
-        <div class="sidebarLogo logo3">Logo3</div>
-        <div class="sidebarLogo logo4">Logo4</div>
-        <div class="sidebarLogo logo5">Logo5</div>
-        <div class="sidebarLogo logo6">Logo6</div>
-        <div class="sidebarTitle title1">Home</div>
-        <div class="sidebarTitle title2">Profile</div>
-        <div class="sidebarTitle title3">Messages</div>
-        <div class="sidebarTitle title4">History</div>
-        <div class="sidebarTitle title5">Tasks</div>
-        <div class="sidebarTitle title6">Communication</div>
-      </div>
-      <div class="sidebarBottom">
-        <div class="sidebarLogo logo7">Logo7</div>
-        <div class="sidebarLogo logo8">Logo8</div>
-        <div class="sidebarLogo logo9">Logo9</div>
-        <div class="sidebarTitle title7">Settings</div>
-        <div class="sidebarTitle title8">Support</div>
-        <div class="sidebarTitle title9">Privacy</div>
-      </div>
-    </aside>
-
-    <main class="mainContainer">
-      <div class="leftContainer">
-        <h3>Your Projects</h3>
-        <div class="projects">
-          <div class="card card1">
-            <h4>Super Cool Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              ducimus rem rerum doloribus deserunt quibusdam officiis, maxime
-              magni fugiat temporibus!
-            </p>
-          </div>
-          <div class="card card2">
-            <h4>Less Cool Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              ducimus rem rerum doloribus.
-            </p>
-          </div>
-          <div class="card card3">
-            <h4>Impossible App</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti!
-            </p>
-          </div>
-          <div class="card card4">
-            <h4>Ad Blocker</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              ducimus rem rerum doloribus deserunt quibusdam officiis, maxime
-              magni fugiat temporibus!
-            </p>
-          </div>
-          <div class="card card5">
-            <h4>Money Maker</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              ducimus rem rerum doloribus!
-            </p>
-          </div>
-          <div class="card card6">
-            <h4>Easy App</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              tempore consequatur distinctio odio odit recusandae voluptate
-              nesciunt earum quam animi sit, voluptatem autem ipsa libero,
-              corporis ipsum aspernatur debitis quod.
-            </p>
-          </div>
+      <header class="toprow">
+        <img
+          src="images/view-dashboard-outline.svg"
+          class="sidebarIcon dashboard"
+        />
+        <h1>Dashboard</h1>
+      </header>
+      <div class="firstnav">
+        <div class="nav1home">
+          <img src="images/home-outline.svg" class="sidebarLogo home" />
+          <h1>Home</h1>
+        </div>
+        <div class="nav1profile">
+          <img
+            src="images/card-account-details-outline.svg"
+            class="sidebarLogo profile"
+          />
+          <h1>Profile</h1>
+        </div>
+        <div class="nav1message">
+          <img src="images/message-outline.svg" class="sidebarLogo message" />
+          <h1>Message</h1>
+        </div>
+        <div class="nav1clock">
+          <img
+            src="images/clock-time-three-outline.svg"
+            class="sidebarLogo clock"
+          />
+          <h1>History</h1>
+        </div>
+        <div class="nav1file">
+          <img
+            src="images/file-multiple-outline.svg"
+            class="sidebarLogo file"
+          />
+          <h1>Tasks</h1>
+        </div>
+        <div class="nav1communities">
+          <img
+            src="images/account-group-outline.svg"
+            class="sidebarLogo communities"
+          />
+          <h1>Communication</h1>
         </div>
       </div>
-      <div class="rightContainer">
+      <div class="secondnav">
+        <div class="nav2cog">
+          <img src="images/cog-outline.svg" class="sidebarLogo cog" />
+          <h1>Settings</h1>
+        </div>
+        <div class="nav2support">
+          <img src="images/help-box-outline.svg" class="sidebarLogo support" />
+          <h1>Support</h1>
+        </div>
+        <div class="nav2">
+          <img
+            src="images/shield-check-outline.svg"
+            class="sidebarLogo privacy"
+          />
+          <h1>Privacy</h1>
+        </div>
+      </div>
+    </aside>
+    <main class="maincontent">
+      <header class="header">
+        <div class="firstheader">
+          <div class="searchbar">
+            <img src="images/magnify.svg" class="magnify" />
+            <div class="search">
+              <input type="text" class="searchinput" />
+            </div>
+          </div>
+          <div class="profile">
+            <img src="images/bell-alert-outline.svg" class="profileicon" />
+            <img src="images/elephant_3798809.png" class="profileavatar" />
+            <p>Danny Johnson</p>
+          </div>
+        </div>
+        <div class="secondheader">
+          <div class="userinfo">
+            <img src="images/elephant_3798809.png" class="useravatar" />
+            <p class="hello1">Hoi hoi!</p>
+            <p class="hello2">Danny Johnson (@DannyJ)</p>
+          </div>
+          <div class="buttons">
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button class="share">Share</button>
+          </div>
+        </div>
+      </header>
+      <div class="maincontent">
+        <div class="projects">
+          <h3>Your Projects</h3>
+          <div class="projectcontent">
+            <div class="project">
+              <div class="projecttext">
+                <h4>Super Cool Project</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat perferendis atque dolorem voluptatibus, odio obcaecati
+                  placeat eligendi minima at accusamus?
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+            <div class="project">
+              <div class="projecttext">
+                <h4>Super Cool Project</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat perferendis atque dolorem voluptatibus, odio obcaecati
+                  placeat eligendi minima at accusamus?
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+            <div class="project">
+              <div class="projecttext">
+                <h4>Kind of Lame App</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat perferendis atque dolorem voluptatibus, odio obcaecati
+                  placeat eligendi
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+            <div class="project">
+              <div class="projecttext">
+                <h4>Big Bucks App</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Maiores sapiente aperiam neque similique nam fugiat nesciunt,
+                  iure harum repudiandae recusandae modi. Iure excepturi
+                  repellat suscipit eaque animi eligendi eum doloremque
+                  inventore sed omnis. Repellendus accusantium quaerat eaque
+                  aliquid minima consectetur?
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+            <div class="project">
+              <div class="projecttext">
+                <h4>Impossible App</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Maiores sapiente aperiam neque similique nam fugiat nesciunt,
+                  iure harum repudiandae recusandae modi. Iure excepturi
+                  repellat suscipit eaque animi eligendi eum doloremque
+                  inventore sed omnis.
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+            <div class="project">
+              <div class="projecttext">
+                <h4>The Best Idea Ever</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Maiores sapiente aperiam neque similique nam fugiat nesciunt,
+                  iure harum repudiandae recusandae modi.
+                </p>
+              </div>
+              <div class="projecticons">
+                <img src="images/star-plus-outline.svg" class="projecticon" />
+                <img src="images/eye-plus-outline.svg" class="projecticon" />
+                <img src="images/source-fork.svg" class="projecticon" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="announcements">
-          <div class="announcement1">
-            <h4>Site Maintainence</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur optio quae quod voluptatibus iure nobis ex excepturi
-              inventore laborum temporibus?
-            </p>
-          </div>
-          <div class="announcement2">
-            <h4>Community Share Day</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur optio quae quod voluptatibus iure nobis ex excepturi
-              inventore laborumtemporibus?
-            </p>
-          </div>
-          <div class="announcement3">
-            <h4>Updated Privacy Policy</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur optio quae quod voluptatibus iure nobis ex excepturi
-              inventore laborum temporibus?
-            </p>
+          <h3>Announcments</h3>
+          <div class="announcementcontent">
+            <div class="contenttop">
+              <h4>Site Maintenance</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+                corrupti sint adipisci quisquam, sunt accusantium?
+              </p>
+            </div>
+            <div class="contentmid">
+              <h4>Community Share Day</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+                corrupti sint adipisci quisquam, sunt accusantium?
+              </p>
+            </div>
+            <div class="contentbot">
+              <h4>Upated Privacy Policy</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+                corrupti sint adipisci quisquam, sunt accusantium?
+              </p>
+            </div>
           </div>
         </div>
         <div class="trending">
-          <div class="trending">
-            <img src="images/giraffe_3940402.png" alt="" />
-            <h4>@Rodney</h4>
-            <p>World peace builder</p>
-          </div>
-          <div class="trending">
-            <img src="images/hippo_414680.png" alt="" />
-            <h4>@Arthur</h4>
-            <p>Super cool project</p>
-          </div>
-          <div class="trending">
-            <img src="images/snake_4866946.png" alt="" />
-            <h4>@Sid</h4>
-            <p>Sneaky App</p>
+          <h3>Trending</h3>
+          <div class="trendingemployees">
+            <div class="trendingcontent">
+              <img src="images/giraffe_3940402.png" class="profileavatar" />
+              <div class="trendingtext">
+                <p class="username">@Jeffy</p>
+                <p class="userintro">Sup Fam</p>
+              </div>
+            </div>
+            <div class="trendingcontent">
+              <img src="images/elephant_3798809.png" class="profileavatar" />
+              <div class="trendingtext">
+                <p class="username">@BobbyJ</p>
+                <p class="userintro">Changing the World</p>
+              </div>
+            </div>
+            <div class="trendingcontent">
+              <img src="images/snake_4866946.png" class="profileavatar" />
+              <div class="trendingtext">
+                <p class="username">@SlangBoy</p>
+                <p class="userintro">Sneaky</p>
+              </div>
+            </div>
+            <div class="trendingcontent">
+              <img src="images/hippo_414680.png" class="profileavatar" />
+              <div class="trendingtext">
+                <p class="username">@HippyHarry</p>
+                <p class="userintro">Big Chungus!</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

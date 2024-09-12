@@ -43,21 +43,40 @@ h6 {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-.headerLogo {
-  height: 50px;
-  width: 50px;
+.sidebarIcon {
+  height: 48px;
+  width: 48px;
 }
 
-.greetingpic {
-  height: 125px;
-  width: 125px;
+.sidebarLogo {
+  width: 32px;
+  height: 32px;
 }
 
-.infopic {
-  height: 100px;
-  width: 100px;
+.magnify {
+  width: 26px;
+  height: 26px;
 }
 
-.header {
-  border: 1px solid black;
+.profileicon {
+  width: 26px;
+  height: 26px;
+}
+
+.profileavatar {
+  width: 48px;
+  height: 48px;
+}
+
+.useravatar {
+  width: 58px;
+  height: 58px;
+}
+
+.projecticon {
+  width: 26px;
+  height: 26px;
+}
+body {
+  display: grid;
 }
